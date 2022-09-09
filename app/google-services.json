@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "955460341227",
+    "project_id": "fir-test-project-1045e",
+    "storage_bucket": "fir-test-project-1045e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955460341227:android:0d3a3ebf3547af41865dae",
+        "android_client_info": {
+          "package_name": "com.example.easyfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955460341227-36h67v7guhlfi8198r4eqpsqot9f4d53.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSYyDNQ8NhOUMnrONOeJ-f6iQ1NkVlhRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955460341227-36h67v7guhlfi8198r4eqpsqot9f4d53.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955460341227:android:343337e3e9d34b0b865dae",
+        "android_client_info": {
+          "package_name": "com.example.firebasetutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955460341227-36h67v7guhlfi8198r4eqpsqot9f4d53.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSYyDNQ8NhOUMnrONOeJ-f6iQ1NkVlhRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955460341227-36h67v7guhlfi8198r4eqpsqot9f4d53.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
