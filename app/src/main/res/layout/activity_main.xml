@@ -25,17 +25,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
+        <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/btn_setting"
-            android:layout_width="wrap_content"
+            android:layout_width="@dimen/_27sdp"
             android:layout_height="match_parent"
             android:layout_marginStart="@dimen/_5sdp"
-            android:src="@drawable/ic_setting"
+            android:src="@drawable/ic_person"
+            app:civ_border_color="@color/b_white"
+            app:civ_border_width="@dimen/_1sdp"
             app:layout_constraintStart_toStartOf="parent" />
 
         <ImageView
             android:id="@+id/btn_search"
-            android:layout_width="wrap_content"
+            android:layout_width="@dimen/_30sdp"
             android:layout_height="match_parent"
             android:layout_marginEnd="@dimen/_5sdp"
             android:src="@drawable/ic_search"
@@ -62,7 +64,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:listitem="@layout/partner_item" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
