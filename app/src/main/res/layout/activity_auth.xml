@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.activity.AuthScreen">
+    tools:context=".ui.activity.AuthActivity">
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -29,5 +29,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:navGraph="@navigation/nav_graph" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/auth_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="match_parent"
+            android:src="@drawable/google_icon" />
+
+        <TextView
+            android:id="@+id/google_sign_in"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:gravity="center"
+            android:text="use google account"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17ssp" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

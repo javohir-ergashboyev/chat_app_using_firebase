@@ -10,10 +10,12 @@
         <entry key="app/src/main/res/drawable/ic_setting.xml" value="0.138" />
         <entry key="app/src/main/res/drawable/ic_sign_in.xml" value="0.138" />
         <entry key="app/src/main/res/drawable/main_layout_bg.xml" value="0.138" />
+        <entry key="app/src/main/res/layout/activity_auth.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/activity_auth_screen.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/activity_search.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/fragment_sign_in.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/fragment_sign_up.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/partner_item.xml" value="0.22" />
         <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.19270833333333334" />
       </map>
