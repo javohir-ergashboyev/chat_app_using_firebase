@@ -72,6 +72,7 @@ class AuthActivity : AppCompatActivity() {
             try {
                 auth.signInWithCredential(credentials).addOnSuccessListener {
                     keepSignIn.putBoolean("isLoggedIn", true).apply()
+                    keepSignIn.putString("userImage", it.user?.photoUrl.toString()).apply()
                     checkLoggedIn()
                 }
             } catch (e: Exception) {

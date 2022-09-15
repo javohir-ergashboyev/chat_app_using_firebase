@@ -81,8 +81,8 @@ class SignUpFragment : Fragment() {
                             user.updateProfile(profileUpdates).addOnSuccessListener {
                                 progressBar.dismiss()
                                 keepSignIn.putBoolean("isLoggedIn", true).apply()
+                                keepSignIn.putString("userImage",user.photoUrl.toString()).apply()
                                 checkLoggedIn()
-
                             }
                         }
 

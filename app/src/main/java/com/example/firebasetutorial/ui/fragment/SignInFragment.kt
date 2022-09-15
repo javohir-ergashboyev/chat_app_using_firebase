@@ -58,8 +58,8 @@ class SignInFragment : Fragment() {
                     auth.signInWithEmailAndPassword(email, password).addOnSuccessListener {
                         progressBar.dismiss()
                         keepSignIn.putBoolean("isLoggedIn", true).apply()
+                        keepSignIn.putString("userPhoto",it.user?.photoUrl.toString()).apply()
                         checkLoggedIn()
-
                     }
                 } catch (e: Exception) {
                     withContext(Dispatchers.Main) {

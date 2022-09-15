@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/bottom_selector.xml" value="0.138" />
+        <entry key="app/src/main/res/drawable/ic_close.xml" value="0.138" />
         <entry key="app/src/main/res/drawable/ic_person.xml" value="0.138" />
         <entry key="app/src/main/res/drawable/ic_search.xml" value="0.138" />
         <entry key="app/src/main/res/drawable/ic_setteing.xml" value="0.138" />
